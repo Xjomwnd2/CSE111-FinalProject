@@ -1,13 +1,19 @@
 <script>
   document.querySelector('form').addEventListener('submit', function(event) {
-    event.preventDefault(); 
-    // Prevents the form from actually submitting
+    event.preventDefault(); // Stops the form from submitting anywhere
+    
+    // Check if message already exists to avoid duplicates
+    let existingMessage = this.querySelector('.success-message');
+    if (existingMessage) {
+      existingMessage.remove();
+    }
     
     // Display success message
     const successMessage = document.createElement('p');
     successMessage.textContent = "Message Successfully Received!";
     successMessage.style.color = "green";
     successMessage.style.fontWeight = "bold";
+    successMessage.classList.add('success-message');
     
     // Append the message to the form
     this.appendChild(successMessage);
@@ -16,3 +22,4 @@
     this.reset();
   });
 </script>
+
