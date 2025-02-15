@@ -1,0 +1,18 @@
+<script>
+  document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+    // Prevents the form from actually submitting
+    
+    // Display success message
+    const successMessage = document.createElement('p');
+    successMessage.textContent = "Message Successfully Received!";
+    successMessage.style.color = "green";
+    successMessage.style.fontWeight = "bold";
+    
+    // Append the message to the form
+    this.appendChild(successMessage);
+    
+    // Clear the form fields
+    this.reset();
+  });
+</script>
