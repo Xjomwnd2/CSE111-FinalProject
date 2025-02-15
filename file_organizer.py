@@ -87,11 +87,6 @@ def main():
             print(f"{category.capitalize()}: {count} files")
     else:
         print("Source directory does not exist!")
-try:
-    filename = input("Enter the path to your text file: ")
-except KeyboardInterrupt:
-    print("\nProcess interrupted. Exiting...")
-    exit()
 
 # Test functions
 def test_get_file_extension():
