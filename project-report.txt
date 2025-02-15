@@ -18,9 +18,13 @@ doing any of the following:
 =============Example====================
             Time Spent
    Date       (hours)   Description of Work
-----------  ----------  -------------------------
-2021-12-03      2.5     Wrote two program functions and two test functions
-2021-12-03      .5      Watched video on 
+----------  ----------  -------------------------    
+2025-02-10      1.5     Researched similar projects and watched tutorial videos
+2025-02-11      2.0     Designed flowchart and wireframe for project structure
+2025-02-12      3.0     Wrote two program functions and two test functions
+2025-02-13      2.5     Debugged errors and optimized code performance
+2025-02-14      1.0     Discussed project challenges and solutions with classmates
+
 =============Example====================
 
 
