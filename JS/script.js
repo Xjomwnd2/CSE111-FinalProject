@@ -10,3 +10,6 @@ fetch(url)
     console.log(`Temperature: ${data.main.temp}`);
   })
   .catch(error => console.error('Error:', error));
+document.addEventListener('DOMContentLoaded', () => {
+  // Your code here
+});
