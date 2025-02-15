@@ -55,7 +55,7 @@ def organize_files(source_dir, dest_dir):
                 for cat, exts in extensions.items():
                     if ext in exts:
                         category = cat
-                        break
+                        break  
                 
                 # Create category directory
                 category_dir = os.path.join(dest_dir, category)
@@ -87,6 +87,11 @@ def main():
             print(f"{category.capitalize()}: {count} files")
     else:
         print("Source directory does not exist!")
+try:
+    filename = input("Enter the path to your text file: ")
+except KeyboardInterrupt:
+    print("\nProcess interrupted. Exiting...")
+    exit()
 
 # Test functions
 def test_get_file_extension():
