@@ -74,7 +74,7 @@ Wind Speed: {parsed_data['wind_speed']} m/s
 def main():
     # Replace with your actual API key from OpenWeatherMap
     API_KEY = "1a6855758b64435ee5c6fe73400920a5"
-    city = input("Enter city name: ")
+    city = input("Eldoret: ")
     
     # Get the weather data
     raw_data = get_weather_data(city, API_KEY)
