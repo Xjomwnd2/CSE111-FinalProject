@@ -109,7 +109,7 @@
       <img class="profile-picture"  src="assets/images/photo2.avif"alt="profile-picture">
       <section id="contact">
         <h2>Contact Me</h2>
-        <form action="/submit-form" method="POST">
+        <form method="POST"> <!-- Removed action attribute -->
           <label for="name">Your Name</label>
           <input type="text" id="name" name="name" required>
       
@@ -121,7 +121,7 @@
       
           <button type="submit">Send Message</button>
         </form>
-      </section>
+      </section>      
     </footer>
 
     <script src="index.js"></script> </body>
