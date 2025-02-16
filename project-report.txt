@@ -20,10 +20,16 @@ doing any of the following:
    Date       (hours)   Description of Work
 ----------  ----------  -------------------------    
 2025-02-10      1.5     Researched similar projects and watched tutorial videos
-2025-02-11      2.0     Designed flowchart and wireframe for project structure
-2025-02-12      3.0     Wrote two program functions and two test functions
-2025-02-13      2.5     Debugged errors and optimized code performance
+2025-02-10      4.0     Wrote and tested file_organizer.py
+2025-02-11      2.0     Designed wireframe for project structure
+2025-02-11      4.0     Wrote and tested weather_data.py
+2025-02-11      4.0     Wrote and tested test_weather_data.py
+2025-02-12      3.0     Tested and debugged the calculator
+2025-02-12      8.0     Wrote gui_calculator.py 
+2025-02-13      2.5     Debugged general errors and optimized codes performances
+2025-02-13      8.o     Wrote and tested word_frequency_counter.py
 2025-02-14      1.0     Discussed project challenges and solutions with classmates
+2025-02-15      4.0     Carried some debugging to some of my codes
 
 =============Example====================
 
