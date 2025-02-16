@@ -1,5 +1,4 @@
 # test_weather_data.py
-import tkinter
 import pytest
 from weather_data import parse_weather_data, format_weather_report
 from datetime import datetime
